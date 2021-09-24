@@ -1,6 +1,34 @@
 /* @import url("bulma.css"); */
 
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+
+body[noscroll] {
+	overflow: hidden;
+	margin: 0;
+	height: 100%;
+	overflow-y: hidden;
+}
+
+div[heightspacer] {
+	height: 100;
+	align-self: auto;
+}
+
+div[widthspacer] {
+	width: 25;
+	align-self: auto;
+}
+
+#hiddenbutton {
+	color: transparent;
+	background-color: transparent;
+	border-color: transparent;
+	cursor: default;
+	position:absolute;
+  bottom:0;
+  right:0;
+}
+
 body {
 	margin: 0;
 	background: #222;

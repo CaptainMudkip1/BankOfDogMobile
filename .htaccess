@@ -1,0 +1,4 @@
+RedirectMatch 403 ^/css/?$
+RedirectMatch 403 ^/header/?$
+RedirectMatch 403 ^/img/?$
+RedirectMatch 403 ^.htaccess$
