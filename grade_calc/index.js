@@ -4,7 +4,12 @@ function gradeCalc(earned, total) {
   x = x + "%"
   return x
 }
-function CALC(e, t) {
+function CALC() {
+  e = document.getElementById("earned").value;
+  t = document.getElementById("total").value;
   x = gradeCalc(e, t);
-  document.write('<p>Your grade was <b>' + x + '</b></p>');
+  document.clear();
+  fetch('./index.html')
+    .then(response => response.text())
+    .then((data) => {document.write(data + '<p>Your grade was <b>' + x + '</b></p>')})
 }
