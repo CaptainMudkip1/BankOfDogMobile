@@ -1,12 +1,14 @@
 /* @import url("bulma.css"); */
 
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+@import url("glitch.css");
 
 body[noscroll] {
 	overflow: hidden;
 	margin: 0;
 	height: 100%;
 	overflow-y: hidden;
+	display: grid;
 }
 
 div[heightspacer] {
