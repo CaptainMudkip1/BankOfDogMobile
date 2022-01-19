@@ -4,7 +4,7 @@ rawFile.onreadystatechange = function() {
   if (rawFile.readyState === 4) {
     if (rawFile.status === 200 || rawFile.status == 0) {
       var header = rawFile.responseText;
-      document.write(header);
+      document.write(header.htmlEscape());
     }
   }
 }
