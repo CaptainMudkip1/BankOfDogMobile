@@ -107,3 +107,9 @@ nav a:hover::before {
 .text {
 	color: #ffffff;
 }
+
+.dmca-badge {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
