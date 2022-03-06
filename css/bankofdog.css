@@ -17,3 +17,7 @@ main {
 body {
   overflow: hidden;
 }
+
+.text {
+	color: #ffffff;
+}
