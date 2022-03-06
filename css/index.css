@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+
+div[fancy-box] {
+  box-sizing: border-box;
+  border: 5px dashed #ffffff;
+  width: inherit;
+  width: 480px;
+  height: 100px;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+}
+
+.dynmap-iframe {
+  width: 75%;
+  height: 650px;
+  border: none;
+}
+
+.dynmap {
+  margin-bottom: 15px;
+}
+
+main {
+  padding: 20% 0;
+}
+
+body {
+  overflow: hidden;
+  background: #222;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.text {
+  color: #ffffff;
+  font-weight: 400;
+}
+
+button {
+  background-color: #fff;
+  border-color: #dbdbdb;
+  border-width: 1px;
+  border-radius: 5px;
+  color: #363636;
+  cursor: pointer;
+  justify-content: center;
+  padding-bottom: calc(.5em - 1px);
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: calc(.5em - 1px);
+  text-align: center;
+  white-space: nowrap
+}
+
+.button.is-info {
+  background-color: #3e8ed0;
+  border-color: transparent;
+  color: #fff
+}
+
+.button.is-info.is-hovered, .button.is-info:hover {
+  background-color: #3488ce;
+  border-color: transparent;
+  color: #fff
+}
+
+.button.is-info.is-focused, .button.is-info:focus {
+  border-color: transparent;
+  color: #fff
+}
+
+.button.is-info.is-focused:not(:active), .button.is-info:focus:not(:active) {
+  box-shadow: 0 0 0 .125em rgba(62, 142, 208, .25)
+}
+
+.button.is-info.is-active, .button.is-info:active {
+  background-color: #3082c5;
+  border-color: transparent;
+  color: #fff
+}
+
+.button.is-info[disabled], fieldset[disabled] .button.is-info {
+  background-color: #3e8ed0;
+  border-color: transparent;
+  box-shadow: none
+}
+
+.button.is-info.is-inverted {
+  background-color: #fff;
+  color: #3e8ed0
+}
+
+.button.is-info.is-inverted.is-hovered, .button.is-info.is-inverted:hover {
+  background-color: #f2f2f2
+}
+
+.button.is-info.is-inverted[disabled], fieldset[disabled] .button.is-info.is-inverted {
+  background-color: #fff;
+  border-color: transparent;
+  box-shadow: none;
+  color: #3e8ed0
+}
+
+.button.is-info.is-loading::after {
+  border-color: transparent transparent #fff #fff !important
+}
+
+.button.is-info.is-outlined {
+  background-color: transparent;
+  border-color: #3e8ed0;
+  color: #3e8ed0
+}
+
+.button.is-info.is-outlined.is-focused, .button.is-info.is-outlined.is-hovered, .button.is-info.is-outlined:focus, .button.is-info.is-outlined:hover {
+  background-color: #3e8ed0;
+  border-color: #3e8ed0;
+  color: #fff
+}
+
+.button.is-info.is-outlined.is-loading::after {
+  border-color: transparent transparent #3e8ed0 #3e8ed0 !important
+}
+
+.button.is-info.is-outlined.is-loading.is-focused::after, .button.is-info.is-outlined.is-loading.is-hovered::after, .button.is-info.is-outlined.is-loading:focus::after, .button.is-info.is-outlined.is-loading:hover::after {
+  border-color: transparent transparent #fff #fff !important
+}
+
+.button.is-info.is-outlined[disabled], fieldset[disabled] .button.is-info.is-outlined {
+  background-color: transparent;
+  border-color: #3e8ed0;
+  box-shadow: none;
+  color: #3e8ed0
+}
+
+.button.is-info.is-inverted.is-outlined {
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff
+}
+
+.button.is-info.is-inverted.is-outlined.is-focused, .button.is-info.is-inverted.is-outlined.is-hovered, .button.is-info.is-inverted.is-outlined:focus, .button.is-info.is-inverted.is-outlined:hover {
+  background-color: #fff;
+  color: #3e8ed0
+}
+
+.button.is-info.is-inverted.is-outlined.is-loading.is-focused::after, .button.is-info.is-inverted.is-outlined.is-loading.is-hovered::after, .button.is-info.is-inverted.is-outlined.is-loading:focus::after, .button.is-info.is-inverted.is-outlined.is-loading:hover::after {
+  border-color: transparent transparent #3e8ed0 #3e8ed0 !important
+}
+
+.button.is-info.is-inverted.is-outlined[disabled], fieldset[disabled] .button.is-info.is-inverted.is-outlined {
+  background-color: transparent;
+  border-color: #fff;
+  box-shadow: none;
+  color: #fff
+}
+
+.button.is-info.is-light {
+  background-color: #eff5fb;
+  color: #296fa8
+}
+
+.button.is-info.is-light.is-hovered, .button.is-info.is-light:hover {
+  background-color: #e4eff9;
+  border-color: transparent;
+  color: #296fa8
+}
+
+.button.is-info.is-light.is-active, .button.is-info.is-light:active {
+  background-color: #dae9f6;
+  border-color: transparent;
+  color: #296fa8
+}

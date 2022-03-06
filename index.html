@@ -1,15 +1,22 @@
 <head>
   <link rel="shortcut icon" type="image/png" href="/img/bankofdog_icon.png">
   <title>Bank Of Dog</title>
-  <link rel="stylesheet" href="/index.css">
+  <link rel="stylesheet" href="/css/index.css">
+  <script src="/js/index.js"></script>
 </head>
 <body>
   <div align="center">
     <h1 class="text">Welcome to Bank Of Dog!</h1>
+    <div class="dynmap">
+      <iframe scrolling=no class="dynmap-iframe" src="http://bankofdog.my.pebble.host:8067/index.html"></iframe>
+    </div>
+    <div fancy-box>
+      <p class="text">Bank Of Dog server ip: <b>play.bankofdog.ml</b></p>
+      <button class="button is-info" onclick="javascript:copyIP();">Click to copy</button>
+    </div>
   </div>
   <main>
-    <div align="center" fancy-box>
-      <p class="text">Bank Of Dog server ip: play.bankofdog.ml</p>
+    <div align="center">
     </div>
   </main>
 </body>
